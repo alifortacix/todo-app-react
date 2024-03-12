@@ -1,0 +1,14 @@
+.todo-app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color: #1341a3;
+}
+
+.todo-app-brandtext {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 48px;
+    color: #889cc7;
+}

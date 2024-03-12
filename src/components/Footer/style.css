@@ -1,0 +1,16 @@
+.todo-app-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color: #275daf;
+    position: static;
+    bottom: 0;
+    left: 0;
+}
+
+.todo-app-footertext {
+    font-size: 20px;
+    line-height: 40px;
+    color: #8dacda;
+}
