@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# Todo Uygulaması
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu React uygulaması, basit bir todo listesi uygulamasıdır. Kullanıcılar yeni görevler ekleyebilir, var olan görevleri tamamlayabilir veya silebilirler. Ayrıca, her görevin üzerine tıklayarak düzenleme yapabilirler.
 
-## Available Scripts
+## Özellikler
 
-In the project directory, you can run:
+- Yeni görev ekleme
+- Görevleri tamamlama
+- Tamamlanmış görevlerin üzerine çizgi çizilmesi
+- Görevleri silme
+- Görevleri düzenleme
 
-### `npm start`
+## Kullanılan Teknolojiler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Redux Toolkit
+- CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Kurulum
 
-### `npm test`
+1. Bu depoyu klonlayın:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/alifortacix/todo-app-react.git
+```
 
-### `npm run build`
+2. Proje dizinine gidin:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd todo-app-react
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Bağımlılıkları yükleyin:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+4. Uygulamayı başlatın:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Ekran Görüntüleri
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Ana Sayfa](screenshots/main.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Düzenleme Modalı](screenshots/edit.png)
 
-## Learn More
+## Lisans
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Todo App
 
-### Code Splitting
+This is a simple todo list application built with React. Users can add new tasks, mark tasks as completed, delete tasks, and edit tasks by clicking on them.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Features
 
-### Analyzing the Bundle Size
+- Add new tasks
+- Mark tasks as completed
+- Strikethrough effect for completed tasks
+- Delete tasks
+- Edit tasks
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technologies Used
 
-### Making a Progressive Web App
+- React
+- Redux Toolkit
+- CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Installation
 
-### Advanced Configuration
+1. Clone this repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git clone https://github.com/alifortacix/todo-app-react.git
+```
 
-### Deployment
+2. Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+cd todo-app
+```
 
-### `npm run build` fails to minify
+3. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+```
+
+4. Start the application:
+
+```bash
+npm start
+```
+
+## Screenshots
+
+![Home Page](screenshots/main.png)
+
+![Edit Modal](screenshots/edit.png)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+

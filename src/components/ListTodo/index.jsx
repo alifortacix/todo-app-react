@@ -12,7 +12,7 @@ const ListTodo = () => {
     }
 
     const handleEdit = (id) => {
-        var editedText = window.prompt("Yeni Değeri Giriniz.");
+        var editedText = window.prompt("Enter new todo text value.");
         dispatch(editItem({ id, editedText }));
     };
 
